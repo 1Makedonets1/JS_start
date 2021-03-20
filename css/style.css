@@ -1,0 +1,31 @@
+button {
+    width: 150px;
+    height: 60px;
+    background: rgb(43, 87, 233);
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 6px;
+    border: solid 2px #3ba7ff;
+}
+
+.buttons {
+    width: 1200px;
+    margin: 200px auto;
+    border: solid 2px  #3ba7ff;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 6px;
+    background: #68bbff;
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px #000;
+    font-size: 16px;
+    border: none;
+}
+
+button:active, 
+button:focus {
+    outline: none;
+}
