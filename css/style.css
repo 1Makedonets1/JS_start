@@ -1,7 +1,21 @@
+h1 {
+    width: 300px;
+    margin: 50px auto;
+    color: #033eff;
+    text-align: center;
+}
+h2 {
+    width: 400px;
+    margin: 0 auto;
+    color: #033eff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 button {
-    width: 150px;
+    width: 120px;
     height: 60px;
-    background: rgb(43, 87, 233);
+    background: #033eff;
     color: #ffffff;
     font-size: 18px;
     border-radius: 6px;
@@ -9,8 +23,8 @@ button {
 }
 
 .buttons {
-    width: 1200px;
-    margin: 200px auto;
+    max-width: 1300px;
+    margin: 0 auto;
     border: solid 2px  #3ba7ff;
     display: flex;
     justify-content: space-around;

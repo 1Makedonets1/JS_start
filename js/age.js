@@ -9,7 +9,7 @@ function checkAge() {
         alert('Вы уже подросток');
     } else if (age > 18 && age < 60) {
         alert('Вы достаточно взрослый');
-    } else if (age > 60) {
+    } else if (age >= 60) {
         alert('Вы уже пенсионер');
     }
 }
